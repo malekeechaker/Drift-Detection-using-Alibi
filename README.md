@@ -63,17 +63,6 @@ pip install torch alibi-detect numpy scikit-learn
 
 ---
 
-## **Project Files**
-
-| File                  | Description                                                                 |
-|-----------------------|-----------------------------------------------------------------------------|
-| `autoencoder.py`       | Autoencoder implementation (model, training, and encoding).                |
-| `drift_detection.py`   | Drift detection pipeline using Alibi-Detect's KSDrift.                      |
-| `data_processing.py`   | Data preparation and manipulation (balanced and biased sampling).          |
-| `run_experiment.py`    | Script to execute the full experiment (training, encoding, drift detection).|
-
----
-
 ## **How to Run the Code**
 
 ### **Step 1: Data Preparation**
